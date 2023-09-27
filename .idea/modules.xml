@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JBS-POC-master/JBS.iml" filepath="$PROJECT_DIR$/JBS-POC-master/JBS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PraticaDevops.iml" filepath="$PROJECT_DIR$/.idea/PraticaDevops.iml" />
     </modules>
   </component>
