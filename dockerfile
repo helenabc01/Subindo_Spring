@@ -10,5 +10,5 @@ RUN mvn clean package -DskipTests
 #
 FROM openjdk:17-jdk-slim
 COPY --from=build /target/JBS-POC-0.0.1-SNAPSHOT.jar JBS-POC.jar
-EXPOSE 9192
+EXPOSE 9190
 ENTRYPOINT ["java","-jar","JBS-POC.jar"]
