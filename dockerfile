@@ -11,4 +11,4 @@ RUN mvn clean package -DskipTests
 FROM openjdk:17-jdk-slim
 COPY --from=build /target/PraticaDevops-0.0.1-SNAPSHOT.jar PraticaDevops.jar
 EXPOSE 9192
-ENTRYPOINT ["java","-jar","PrePratica.jar"]
+ENTRYPOINT ["java","-jar","PraticaDevops.jar"]
